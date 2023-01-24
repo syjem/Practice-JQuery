@@ -11,12 +11,24 @@
 </head>
 <body>
     <!-- To-Do-List -->
-    <h1>My To-Do List</h1>
-    <input type="text" placeholder="New item...">
-    <button id="add">Add</button>
-    <ol id="my-list"></ol>
-
-
+    <section class="form">
+        <form method="post" action="#">
+            <label for="to-do">
+                <h1>My To-Do List</h1>
+            </label>
+            <input class="input" type="text" id="to-do" placeholder="Add to-do list...">
+            <button id="add" type="button">
+                <span class="shadow"></span>
+                <span class="edge"></span>
+                <span class="front text">Add
+                </span>
+              </button>
+            <fieldset class="today">
+                <legend class="label">Today's Priorities</legend>
+                <ol id="my-list"></ol>
+            </fieldset>
+        </form>
+    </section>
 
     <script src="js/script.js"></script>
 </body>
