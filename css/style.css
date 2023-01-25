@@ -231,6 +231,13 @@ button {
                 rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
+.box-container {
+    margin: 10px auto;
+    height: 280px;
+    width: 60%;
+    border: 2px solid orangered;
+}
+
 .width {
     width: 50%;
     margin: 10px auto;
