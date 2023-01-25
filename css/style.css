@@ -13,7 +13,6 @@ main {
     display: flex;
     justify-content: center;
     text-align: center;
-    border: 1px solid #1abc9c;
 }
 
 h1 {
