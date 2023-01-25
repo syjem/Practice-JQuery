@@ -8,6 +8,14 @@ body {
     padding: 0;
 }
 
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #1abc9c;
+}
+
 h1 {
     color: #1abc9c;
     margin: 10px;
@@ -79,7 +87,7 @@ li.item {
     justify-content: center;
     text-align: center;
     width: 30%;
-    margin: 50px auto;
+    margin: 50px 20px;
     padding: 10px;
     background-color: bisque;
     height: 500px;
@@ -193,3 +201,17 @@ button {
    button:focus:not(:focus-visible) {
     outline: none;
    }
+
+
+   /* Toggle Section */
+
+.toggle-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    margin: 50px 20px;
+    padding: 10px;
+    background-color: bisque;
+    height: 500px;
+}
