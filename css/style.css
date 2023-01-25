@@ -91,6 +91,7 @@ li.item {
     padding: 10px;
     background-color: bisque;
     height: 500px;
+    border-radius: 14px;
 }
 
 .today {
@@ -216,6 +217,7 @@ button {
     padding: 10px;
     background-color: bisque;
     height: 500px;
+    border-radius: 14px;
 }
 
 .box {
