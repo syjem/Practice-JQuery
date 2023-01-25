@@ -1,3 +1,4 @@
+// To-Do List
 $(function() {
     $("#add").on("click", function() {
         var jem = $("input").val();
@@ -11,5 +12,12 @@ $(function() {
 
     $(document).on("click", ".rem", function() {
         $(this).parent().remove();
+    });
+});
+
+// Toggle
+$(function() {
+    $(".toggle").click(function() {
+        $(".box").toggle();
     });
 });
