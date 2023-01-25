@@ -18,6 +18,6 @@ $(function() {
 // Toggle
 $(function() {
     $(".toggle").click(function() {
-        $(".box").toggle(250);
+        $(".box").fadeToggle(500);
     });
 });
