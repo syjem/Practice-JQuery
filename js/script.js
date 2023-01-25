@@ -18,6 +18,7 @@ $(function() {
 // Toggle
 $(function() {
     $(".toggle").click(function() {
-        $(".box").fadeToggle(500);
+        $(".box").toggle();
+        $(".toggle").toggle();
     });
 });
