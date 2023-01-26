@@ -91,6 +91,9 @@ li.item {
     background-color: rgb(41, 1, 21);
     height: 500px;
     border-radius: 14px;
+    box-shadow: rgb(240, 64, 152) 0px 2px 4px, 
+                rgba(236, 79, 158) 0px 7px 13px -3px, 
+                rgb(243, 68, 155) 0px -3px 0px inset;
 }
 
 .today {
@@ -101,6 +104,9 @@ li.item {
     overflow: scroll;
     text-align: left;
     margin-top: 15px;
+    box-shadow: rgb(12, 158, 134) 0px 2px 4px, 
+                rgb(230, 7, 118) 0px 7px 13px -3px, 
+                rgb(153, 134, 144) 0px -3px 0px inset;
 }
 
 .label {
@@ -215,6 +221,9 @@ button {
     gap: 10px;
     padding: 10px;
     background-color: rgb(41, 1, 21);
+    box-shadow: rgb(240, 64, 152) 0px 2px 4px, 
+                rgba(236, 79, 158) 0px 7px 13px -3px, 
+                rgb(243, 68, 155) 0px -3px 0px inset;
     height: 500px;
     border-radius: 14px;
 }
@@ -225,9 +234,9 @@ button {
     width: 12em;
     height: 254px;
     background: rgb(236, 236, 236);
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
-                rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
-                rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    box-shadow: rgba(41, 1, 21, 0.4) 0px 2px 4px, 
+                rgba(41, 1, 21, 0.3) 0px 7px 13px -3px, 
+                rgba(41, 1, 21, 0.2) 0px -3px 0px inset;
 }
 
 .box-container {
@@ -235,9 +244,9 @@ button {
     height: 280px;
     width: 60%;
     border: 2px solid orangered;
-    box-shadow: rgba(194, 176, 176, 0.4) 0px 2px 4px, 
-                rgba(202, 184, 184, 0.3) 0px 7px 13px -3px, 
-                rgba(236, 230, 230, 0.2) 0px -3px 0px inset;
+    box-shadow: rgb(12, 158, 134) 0px 2px 4px, 
+                rgb(230, 7, 118) 0px 7px 13px -3px, 
+                rgb(153, 134, 144) 0px -3px 0px inset;
 }
 
 .width {
