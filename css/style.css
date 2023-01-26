@@ -235,6 +235,9 @@ button {
     height: 280px;
     width: 60%;
     border: 2px solid orangered;
+    box-shadow: rgba(194, 176, 176, 0.4) 0px 2px 4px, 
+                rgba(202, 184, 184, 0.3) 0px 7px 13px -3px, 
+                rgba(236, 230, 230, 0.2) 0px -3px 0px inset;
 }
 
 .width {
