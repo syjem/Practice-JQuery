@@ -23,7 +23,7 @@ h1 {
 }
 .rem {
     margin-left: 5px;
-    background-color: white;
+    background-color: rgb(51, 48, 48);
     color: red;
     border: none;
     cursor: pointer;
